@@ -1,14 +1,15 @@
 import { NavLink } from "react-router-dom";
 
 
+
 const NavBar = () => {
 
     const link = <>
         <li><NavLink to="/" className={({isActive})=>isActive? "text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Home</NavLink></li>
-        <li><NavLink to="listedBook" className={({isActive})=>isActive? "text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Listed Books</NavLink></li>
-        <li><NavLink to="pagesToRead" className={({isActive})=>isActive?"text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Pages to Read</NavLink></li>
-        <li><NavLink to="blogs" className={({isActive})=>isActive?"text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Blogs</NavLink></li>
-        <li><NavLink to="contactUs" className={({isActive})=>isActive? "text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Contact Us</NavLink></li>
+        <li><NavLink to="/listedBook" className={({isActive})=>isActive?"text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Listed Books</NavLink></li>
+        <li><NavLink to="/pagesToRead" className={({isActive})=>isActive?"text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Pages to Read</NavLink></li>
+        <li><NavLink to="/blogs" className={({isActive})=>isActive?"text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Blogs</NavLink></li>
+        <li><NavLink to="/contactUs" className={({isActive})=>isActive? "text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Contact Us</NavLink></li>
     </>
     return (
         <div className="navbar  max-w-6xl mx-auto">

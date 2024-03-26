@@ -32,7 +32,7 @@ const BookCard = ({ book }) => {
 };
 
 BookCard.propTypes = {
-    book: PropTypes.array
+    book: PropTypes.object
 };
 
 export default BookCard;
