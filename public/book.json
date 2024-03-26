@@ -1,0 +1,121 @@
+[
+    {
+      "id": 1,
+      "bookName": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://i.ibb.co/ZxnYDYd/kindpng-81724-1.png",
+      "review": "The Silent Patient is a psychological thriller novel written by Alex Michaelides. The novel follows the story of Alicia Berenson, a successful painter who seemingly murders her husband, Gabriel, and then stops speaking altogether. Following the murder, Alicia is admitted to a psychiatric facility, where she remains silent and uncommunicative.The story unfolds through the perspective of Theo Faber, a psychotherapist who becomes fascinated with Alicia's case and is determined to unravel the mystery behind her silence. As Theo delves deeper into Alicia's past and her relationships, he uncovers dark secrets and hidden motivations that lead to a shocking conclusion.",
+      "totalPages": 336,
+      "rating": 4.5,
+      "category": "Mystery",
+      "tags": ["Suspense", "Psychological"],
+      "publisher": "Celadon Books",
+      "yearOfPublishing": 2019
+    },
+    {
+      "id": 2,
+      "bookName": "Educated: A Memoir",
+      "author": "Tara Westover",
+      "image": "https://i.ibb.co/YfWHcXG/kindpng-1064993.png",
+      "review": "Educated: A Memoir is a powerful autobiography written by Tara Westover, detailing her remarkable journey from growing up in a strict and isolated household in rural Idaho to eventually pursuing higher education at prestigious institutions such as Harvard University and Cambridge University.The memoir begins with Westover's upbringing in a survivalist family led by her father, who held extreme beliefs and distrusted the government and formal education. Growing up, Westover and her siblings were denied access to traditional schooling, medical care, and even birth certificates. Instead, they were expected to work in their father's junkyard and prepare for the end of the world.",
+      "totalPages": 352,
+      "rating": 4.7,
+      "category": "Biography",
+      "tags": ["Inspiring", "Education"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2018
+    },
+    {
+      "id": 3,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://i.ibb.co/16KVVBM/kindpng-2193744-1.png",
+      "review": "A timeless classic capturing the essence of the Jazz Age with its vivid characters and themes of love, wealth, and the American Dream.The story revolves around Jay Gatsby, a mysterious and enigmatic millionaire who throws extravagant parties at his mansion in West Egg. Gatsby is deeply in love with Daisy Buchanan, Nick's cousin, who lives across the bay in East Egg with her husband, Tom Buchanan.",
+      "totalPages": 180,
+      "rating": 4.2,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance"],
+      "publisher": "Scribner",
+      "yearOfPublishing": 1925
+    },
+    {
+      "id": 4,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/tB5n9V7/kindpng-4022054-1.png",
+      "review": "A poignant narrative tackling themes of racial injustice and moral growth in the American South, told through the eyes of a young girl.The novel revolves around the Finch family's experiences, particularly as they become involved in the trial of Tom Robinson, a black man accused of raping a white woman named Mayella Ewell. Atticus, a principled lawyer, agrees to defend Tom despite the town's deeply ingrained racism and prejudice.Through Scout's innocent perspective, readers witness the societal injustices, racial tensions, and moral complexities of Maycomb. The trial serves as a focal point for exploring themes of racial inequality, empathy, and the loss of innocence.",
+      "totalPages": 281,
+      "rating": 4.6,
+      "category": "Classic",
+      "tags": ["Injustice", "Coming of Age"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "id": 5,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/9yFnXVw/kindpng-4945926-1.png",
+      "review": "The Catcher in the Ryeis a classic novel written by J.D. Salinger, first published in 1951. The story is narrated by Holden Caulfield, a troubled and disillusioned teenager who has been expelled from his prep school, Pencey Prep, and is wandering around New York City before returning home to face his parents.Holden is a complex character who struggles with feelings of alienation, cynicism, and confusion about the adult world. Throughout the novel, he grapples with themes of identity, authenticity, and the loss of innocence. He is fiercely critical of what he perceives as phoniness in society and often expresses a desire to protect the innocence of children, symbolized by the image of a catcher in the rye field.",
+      "totalPages": 224,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Classic", "Youth"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "id": 6,
+      "bookName": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "image": "https://i.ibb.co/72JCgSw/kindpng-5624060-1.png",
+      "review": "The Girl on the Trainis a psychological thriller novel written by Paula Hawkins, first published in 2015. The story follows Rachel Watson, a troubled woman who takes the same train every day, passing by her old house where she used to live with her ex-husband, Tom. As the train stops at a signal, Rachel observes a seemingly perfect couple, whom she nicknames Jess and Jason, living in a house nearby. She becomes infatuated with their lives and begins to imagine a perfect existence for them. However, Rachel's life is far from perfect. She is an alcoholic who has lost her job and her marriage due to her drinking problem. Her obsession with the couple she observes from the train leads her to insert herself into their lives in unexpected ways.",
+      "totalPages": 336,
+      "rating": 4.0,
+      "category": "Thriller",
+      "tags": ["Mystery", "Suspense"],
+      "publisher": "Riverhead Books",
+      "yearOfPublishing": 2015
+    },
+    {
+      "id": 7,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "https://i.ibb.co/Vq59Yt1/kindpng-7318921.png",
+      "review": "1984 is a dystopian novel written by George Orwell, first published in 1949. Set in a totalitarian society ruled by the Party led by Big Brother, the novel follows the life of Winston Smith, a low-ranking member of the Outer Party who works for the Ministry of Truth, where his job is to rewrite historical records to fit the Party's narrative.In the world of 1984 the Party maintains complete control over every aspect of its citizens' lives, employing pervasive surveillance, propaganda, and brutal repression to maintain power. The Party's slogans, such as War is Peace Freedom is Slavery, and Ignorance is Strength, reflect its manipulation of truth and reality.",
+      "totalPages": 328,
+      "rating": 4.8,
+      "category": "Science Fiction",
+      "tags": ["Dystopian", "Political"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "id": 8,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "image": "https://i.ibb.co/JxqyVKX/pngwing-1-1.png",
+      "review": "Harry Potter and the Philosopher's Stone is the first book in the immensely popular Harry Potter series, written by J.K. Rowling and first published in 1997 in the United Kingdom (it was titled Harry Potter and the Sorcerer's Stone for its release in the United States). The novel introduces readers to the magical world of Harry Potter, a young orphan who discovers on his eleventh birthday that he is a wizard.he story begins with Harry living with his cruel aunt, uncle, and cousin, the Dursleys, who have kept his true identity hidden from him. On his eleventh birthday, Harry receives a letter from Hogwarts School of Witchcraft and Wizardry, inviting him to enroll. Despite his aunt and uncle's attempts to prevent him from attending, Harry is eventually whisked away to Hogwarts by Hagrid, the groundskeeper, and introduced to the wonders of the wizarding world.",
+      "totalPages": 320,
+      "rating": 4.9,
+      "category": "Fantasy",
+      "tags": ["Magic", "Adventure"],
+      "publisher": "Bloomsbury Publishing",
+      "yearOfPublishing": 1997
+    },
+    {
+        "id": 9,
+        "bookName": "The Martian",
+        "author": "Andy Weir",
+        "image": "https://i.ibb.co/XtGPjpY/kindpng-2592315-1.png",
+        "review": "The Martian is a science fiction novel written by Andy Weir, first published in 2011. The story follows Mark Watney, an astronaut who is left stranded on Mars after a mission goes awry and he is presumed dead by his crewmates. Alone and with limited resources, Watney must rely on his ingenuity, resourcefulness, and scientific knowledge to survive on the hostile planet and find a way to communicate with Earth for rescue.Using his skills as a botanist and engineer, Watney devises innovative solutions to overcome numerous challenges, including growing food, generating water, and repairing equipment. He documents his experiences through journal entries, providing insight into his struggles, triumphs, and wry sense of humor.",
+        "totalPages": 369,
+        "rating": 4.6,
+        "category": "Science Fiction",
+        "tags": ["Survival", "Science"],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2011
+      }
+      
+  ]
+  
