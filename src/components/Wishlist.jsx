@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import { getStoredBook } from "./utility/localStorage";
+import { getStoredBook2 } from "./utility/localStorage";
 import ReadWishlist from "./ReadWishlist";
 
 
@@ -8,14 +8,12 @@ const Wishlist = () => {
     const booksItem = useLoaderData()
     const [listedBooks, setListedBooks] = useState([])
     useEffect(() => {
-        const storedBookId = getStoredBook()
+        const storedBookId = getStoredBook2()
         if (booksItem.length > 0) {
             const listedBook = booksItem.filter(item => storedBookId.includes(item.id))
             setListedBooks(listedBook)
         }
     }, [booksItem])
-
-
 
     return (
         <div className="max-w-6xl mx-auto my-10">

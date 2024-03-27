@@ -18,5 +18,25 @@ const saveStoredBook = (id) => {
     }
 }
 
+const getStoredBook2 = () => {
+    const storedBook = localStorage.getItem("book")
 
-export { getStoredBook, saveStoredBook }
+    if (storedBook) {
+        return JSON.parse(storedBook);
+    } else {
+        return [];
+    }
+
+}
+
+const saveStoredBook2 = (id) => {
+    const saveStoredBooks = getStoredBook()
+    const exists = saveStoredBooks.find(bookId => bookId === id)
+    if (!exists) {
+        saveStoredBooks.push(id)
+        localStorage.setItem("book", JSON.stringify(saveStoredBooks))
+    }
+}
+
+
+export { getStoredBook, saveStoredBook,getStoredBook2, saveStoredBook2 }

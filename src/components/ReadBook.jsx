@@ -4,9 +4,9 @@ import { useLoaderData } from 'react-router-dom';
 import { getStoredBook } from './utility/localStorage';
 import ReadBookList from './ReadBookList';
 
-const ReadBook = () => {
+const ReadBook = () => {   
     const booksItem = useLoaderData()
-    const [listedBooks, setListedBooks] = useState([])
+    const [listedBooks, setListedBooks] = useState([]) 
     useEffect(() => {
         const storedBookId = getStoredBook()
         if (booksItem.length > 0) {
@@ -14,8 +14,6 @@ const ReadBook = () => {
             setListedBooks(listedBook)
         }
     }, [booksItem])
-
-
 
     return (
         <div className='max-w-6xl mx-auto my-10'>

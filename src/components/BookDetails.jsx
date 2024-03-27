@@ -1,12 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { saveStoredBook } from "./utility/localStorage";
+import { saveStoredBook, saveStoredBook2 } from "./utility/localStorage";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from "react";
 
 const BookDetails = () => {
-    const [items, setItems] = useState([])
-    const [items2, setItems2] = useState([])
+    const [items, setItems] = useState([])   
     const books = useLoaderData()
     const { id } = useParams()
     const idInt = parseInt(id)
@@ -26,15 +25,15 @@ const BookDetails = () => {
     }
 
     const handleBookWishlist = (books) => {
-        const isExist = items2.find(item => item.id == books.id)
+        const isExist = items.find(item => item.id == books.id)
         if (!isExist) {
-            const newItem = [...items2, books]
-            setItems2(newItem)
+            const newItem = [...items, books]
+            setItems(newItem)
             toast.success("Book Added Successfully");
         } else {
             toast.warning("Already Eexist");
         }
-        saveStoredBook(idInt)
+        saveStoredBook2(idInt)
     }
 
     return (
