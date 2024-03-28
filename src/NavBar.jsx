@@ -1,9 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-
-
 const NavBar = () => {
-
     const link = <>
         <li><NavLink to="/" className={({isActive})=>isActive? "text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Home</NavLink></li>
         <li><NavLink to="/listedBook" className={({isActive})=>isActive?"text-[#23be0a] border-2 border-[#23be0a] rounded-md py-1 px-4" :""}>Listed Books</NavLink></li>

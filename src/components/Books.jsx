@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import BookCard from "./BookCard";
 
-
 const Books = () => {
     const [books, setBooks] = useState([])
     useEffect(() => {
@@ -10,7 +9,6 @@ const Books = () => {
             .then(data => setBooks(data))
 
     }, [])
-
 
     return (
 
